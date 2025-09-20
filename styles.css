@@ -43,10 +43,10 @@ body{
 .hero-text h2{margin:0 0 .5rem 0;font-size:1.8rem}
 .hero-text p{margin:0 0 1rem;color:var(--muted)}
 .btn{display:inline-block;padding:.6rem .9rem;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;border:0}
-.hero-image{width:160px;height:160px;border-radius:12px;object-fit:cover}
+.hero-image{width:300px;height:300px;border-radius:12px;object-fit:cover}
 
 /* About / Projects */
-.about{padding:1rem 0}
+.about{padding:0rem 0}
 .skills{display:flex;gap:.5rem;padding:0;margin:.5rem 0 0 0}
 .skills li{list-style:none;background:#f6f8ff;padding:.3rem .6rem;border-radius:999px;font-size:.9rem}
 
