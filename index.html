@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Breve descrizione di te e del tuo lavoro." />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/me.jpg" alt="Avatar" class="avatar" />
+        <div>
+          <h1 id="site-name">MARCO DONÀ</h1>
+          <p class="tagline">Engineer • Musician • Problem solver</p>
+        </div>
+      </div>
+
+      <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false">
+        <span class="sr-only">Apri menu</span>
+        ☰
+      </button>
+
+      <nav id="site-nav" class="site-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Chi sono</a></li>
+          <li><a href="#projects">Progetti</a></li>
+          <li><a href="#contact">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Ciao — io sono <span id="hero-name">Marco</span></h2>
+          <p>Ingegnere quando serve, appassionato di tecnologia e musica quando posso.</p>
+          <a class="btn" href="#projects">Vedi i progetti</a>
+        </div>
+        <img class="hero-image" src="assets/me.jpg" alt="Foto" />
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>Chi sono</h3>
+        <p>
+            Sono nato il 14 Agosto 1996 in provincia di Venezia, pesavo 2.45kg e sembravo un cinesino (a volte mi viene il dubbio di essere stato adottato).
+            Appassionato di tecnologia sin da bambino, passavo i pomeriggi a sfogliare l'enciclopedia dei nonni e disegnare motori
+            (per il resto ero un bambino normale, giuro).
+        </p>
+        <p>
+            Seguendo l'indole nerd, ho frequentato l'istituto tecnico industriale 
+            Francesco Severi (Padova) con indirizzo Automazione. Lì ho scoperto l'affascinante mondo dei controlli automatici e ho scoperto che 
+            studiare può anche non essere una tortura (grazie prof. Pollero). In quegli anni (tra un flash di ROM del cellulare e l'altro) ho iniziato a 
+            dilettarmi con la produzione di musica elettronica, hobby che mi accompagna ancora adesso.
+            Terminate le superiori ho deciso di proseguire gli studi presso l'Università degli Studi 
+            di Padova, iniziando con Ingegneria dell'Informazione per poi specializzarmi in Ingegneria dell'Automazione.
+        </p>
+        <p>
+            Dopo la laurea (2023) ho iniziato subito a lavorare in Leonardo come Software Engineer Consultant. In quell'esperienza ho
+            imparato le basi della programmazione in C/C++, del design di interfacce utente con qt e dello sviluppo in ambiente Linux.
+            Tuttavia, ho capito presto che la programmazione pura non era la mia strada, e ho quindi deciso di tornare alla mia amata teoria del controllo
+            in Whirlpool (ora Beko Europe), dove ricopro il ruolo di R&D Electrical Engineer con specializzazione in controlli automatici.
+        </p>
+      <ul class="skills">
+        <li>Control systems</li>
+        <li>Machine learning</li>
+        <li>Acoustics & sound</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="container projects">
+      <h3>Progetti</h3>
+      <div class="grid">
+        <article class="card">
+          <img src="assets/project1-screenshot.jpg" alt="Project 1" />
+          <h4>Project 1</h4>
+          <p>Short description of project 1.</p>
+          <p><a href="#">Demo / Repo</a></p>
+        </article>
+
+        <article class="card">
+          <h4>Project 2</h4>
+          <p>Short description of project 2.</p>
+          <p><a href="#">Repo</a></p>
+        </article>
+
+        <article class="card">
+          <h4>Project 3</h4>
+          <p>Short description of project 3.</p>
+          <p><a href="#">Repo</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Contatti</h3>
+      <form id="contact-form">
+        <label>
+          Nome
+          <input name="name" required />
+        </label>
+        <label>
+          Email
+          <input name="email" type="email" required />
+        </label>
+        <label>
+          Messaggio
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit" class="btn">Invia</button>
+        <p id="form-status" class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> YOUR NAME — Built with ♥</p>
+    </div>
+  </footer>
+</body>
+</html>
