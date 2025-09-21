@@ -46,7 +46,7 @@ body{
 .hero-image{width:300px;height:300px;border-radius:12px;object-fit:cover}
 
 /* About / Projects */
-.about{padding:0rem 0}
+.about{padding:0rem 1}
 .skills{display:flex;gap:.5rem;padding:0;margin:.5rem 0 0 0}
 .skills li{list-style:none;background:#f6f8ff;padding:.3rem .6rem;border-radius:999px;font-size:.9rem}
 
