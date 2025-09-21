@@ -28,7 +28,7 @@ body{
 .skip-link:focus{left:1rem;top:1rem;width:auto;height:auto;background:#fff;padding:.5rem;border:1px solid #ccc;z-index:1000}
 
 .site-header{border-bottom:1px solid #eee;background:#fafafa}
-.header-inner{display:flex;align-items:center;justify-content:space-between;padding:.7rem 0}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:.7rem 1}
 .brand{display:flex;gap:.8rem;align-items:center}
 .avatar{width:56px;height:56px;border-radius:50%;object-fit:cover}
 .tagline{margin:0;font-size:.9rem;color:var(--muted)}
